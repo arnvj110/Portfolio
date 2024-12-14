@@ -69,7 +69,7 @@ const Detail = ({x,Setx,xbg}) => {
             <div className={`hover:scale-105 rounded-xl transition-all duration-500 ease-in-out shadow-2xl w-[500px] h-[270px] bg-cover bg-center`}
             style={
               {
-                backgroundImage:`url(/public${details[xbg].image})`,
+                backgroundImage:`url(${details[xbg].image})`,
                 backgroundSize:'cover',
                 backgroundPosition:'center',
               }
