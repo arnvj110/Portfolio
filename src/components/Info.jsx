@@ -4,7 +4,7 @@ const Info = ({ show,x }) => {
 
   const text = "Hello! I'm a first-year B.Tech Computer Science and Engineering student at GGSIP University. I have a deep passion for web development, and I'm constantly working to enhance my skills in frontend technologies and problem-solving to create innovative, user-friendly web applications.";
   return (
-    <div className={`ml-auto bg-[url(Images/cool-background-black.png)] text-gray-200 bg-cover bg-center font-mono transition-all duration-1000 ease-in-out top-0 h-[100%] ${show ? 'w-[1000px]' : 'w-[1350px]'} border border-black -right-2 flex justify-center items-center rounded-l-2xl bg-white shadow-2xl`}>
+    <div className={`ml-auto bg-[url(/Images/cool-background-black.png)] text-gray-200 bg-cover bg-center font-mono transition-all duration-1000 ease-in-out top-0 h-[100%] ${show ? 'w-[1000px]' : 'w-[1350px]'} border border-black -right-2 flex justify-center items-center rounded-l-2xl bg-white shadow-2xl`}>
       <div className='w-[85%] h-[90%]  gap-4'>
         <div className='flex flex-col justify-center '>
           <h1 className='text-6xl mb-10 font-f3'>Arnav Jain</h1>
@@ -13,7 +13,7 @@ const Info = ({ show,x }) => {
 
         <div className='fixed right-[100px] mt-[25px] mr-[1px] flex justify-center items-center 
 rounded-full w-[200px] h-[200px] text-lg  transition-all duration-500 ease-in-out hover:scale-105 hover:bg-blue-400  ml-auto shadow-2xl overflow-hidden'>
-          <img src="Images/me1.jpg" alt="" />
+          <img src="/Images/me1.jpg" alt="" />
 
         </div>
         <div className='h-[230px] flex flex-col justify-center '>
