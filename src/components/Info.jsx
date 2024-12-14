@@ -11,11 +11,7 @@ const Info = ({ show,x }) => {
           <p>{text}</p>
         </div>
 
-        <div className='fixed right-[100px] mt-[25px] mr-[1px] flex justify-center items-center 
-rounded-full w-[200px] h-[200px] text-lg  transition-all duration-500 ease-in-out hover:scale-105 bg-[url(/me1.jpg)] bg-cover bg-center  ml-auto shadow-2xl overflow-hidden'>
-          
-
-        </div>
+        
         <div className='h-[230px] flex flex-col justify-center '>
           <span className='mb-5'>Contact - arnavjain92105@gmail.com</span>
           {!x && 
@@ -34,7 +30,7 @@ rounded-full w-[200px] h-[200px] text-lg  transition-all duration-500 ease-in-ou
                 </svg>
               </a>
             </span>
-            {/* end */}
+            
             <span className='cursor-pointer border rounded-full' style={{ zIndex: 999 }}>
               <a target='_blank' href="https://www.github.com/arnvj110/" >
               <svg className="w-10" viewBox="0 0 20 20" version="1.1" fill="#000000" width="40" height="40">
@@ -43,8 +39,7 @@ rounded-full w-[200px] h-[200px] text-lg  transition-all duration-500 ease-in-ou
   </g>
   <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
   <g id="SVGRepo_iconCarrier">
-    <title>github [#142]</title>
-    <desc>Created with Sketch.</desc>
+    
     <defs></defs>
     <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
       <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">

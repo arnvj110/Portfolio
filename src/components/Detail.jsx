@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Detail = ({x,Setx,xbg}) => {
+const Detail = ({xbg}) => {
   const details=[
     {
       color:'bg-red-500',
@@ -54,7 +54,9 @@ const Detail = ({x,Setx,xbg}) => {
   
   return (
     <div className={`transition-all duration-500 ease-in-out rounded-2xl text-gray-100 border-none p-5 fixed border border-black ${details[xbg].color} w-[1000px] h-[95%] top-[20px] left-[400px]`}
-        
+        style={{
+          zIndex:999
+        }}
         >
         
           <h1 className='m-5 text-5xl font-f4 font-bold'>{details[xbg].projectName}</h1>
