@@ -66,7 +66,15 @@ const Detail = ({x,Setx,xbg}) => {
           <p>HomePage Url - <a target='_blank' href={details[xbg].homePage}><span className='text-blue-200 font-semibold underline'>{details[xbg].homePage}</span></a></p>
             </div>
             <a target='_blank' href={details[xbg].homePage}>
-            <img className='hover:scale-105 rounded-xl transition-all duration-500 ease-in-out shadow-2xl' width={'500px'} src={details[xbg].image} alt={details[xbg].projectName} />
+            <div className={`hover:scale-105 rounded-xl transition-all duration-500 ease-in-out shadow-2xl w-[500px] h-[270px] bg-cover bg-center`}
+            style={
+              {
+                backgroundImage:`url(${details[xbg].image})`,
+                backgroundSize:'cover',
+                backgroundPosition:'center',
+              }
+            }
+            ></div>
             </a>
           </div>
           

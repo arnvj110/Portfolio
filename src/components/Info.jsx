@@ -12,8 +12,8 @@ const Info = ({ show,x }) => {
         </div>
 
         <div className='fixed right-[100px] mt-[25px] mr-[1px] flex justify-center items-center 
-rounded-full w-[200px] h-[200px] text-lg  transition-all duration-500 ease-in-out hover:scale-105 hover:bg-blue-400  ml-auto shadow-2xl overflow-hidden'>
-          <img src="/me1.jpg" alt="me" />
+rounded-full w-[200px] h-[200px] text-lg  transition-all duration-500 ease-in-out hover:scale-105 bg-[url(/me1.jpg)] bg-cover bg-center  ml-auto shadow-2xl overflow-hidden'>
+          
 
         </div>
         <div className='h-[230px] flex flex-col justify-center '>
