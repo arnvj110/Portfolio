@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Detail = ({x,Setx,xbg}) => {
   const details=[
@@ -8,7 +8,7 @@ const Detail = ({x,Setx,xbg}) => {
       description:'A basic front-end clone of Claude-Ai. It is made in Vite+React.',
       gitHubLink:'https://github.com/arnvj110/Claude-clone',
       homePage:'https://arnav-claude-clone.vercel.app/',
-      image:'Images/Claude.png',
+      image:'/Claude.png',
     },
     {
       color:'bg-blue-500',
@@ -16,7 +16,7 @@ const Detail = ({x,Setx,xbg}) => {
       description:'This is a project in which you can save your code and see, update, delete it whenever you want. It is my first project including react-router-dom and some use of local storage.',
       gitHubLink:'https://github.com/arnvj110/paste',
       homePage:'https://paste-lepg.vercel.app/',
-      image:'Images/Paste.png',
+      image:'/Paste.png',
     },
     {
       color:'bg-green-500',
@@ -24,7 +24,7 @@ const Detail = ({x,Setx,xbg}) => {
       description:'Snake Game you can play and have fun!',
       gitHubLink:'https://github.com/arnvj110/Snake_Game',
       homePage:'https://arnvj110.github.io/Snake_Game/',
-      image:'Images/Snake.png',
+      image:'/Snake.png',
     },
     {
       color:'bg-yellow-500',
@@ -32,7 +32,7 @@ const Detail = ({x,Setx,xbg}) => {
       description:'Valorant front-end Clone made by collaboration with DevSource . Still in progress!',
       gitHubLink:"https://github.com/arnvj110/valorant-clone",
       homePage:'https://arnvj110.github.io/valorant-clone/',
-      image:'Images/Valorant.png',
+      image:'/Valorant.png',
     },
     {
       color:'bg-pink-500',
@@ -40,7 +40,7 @@ const Detail = ({x,Setx,xbg}) => {
       description:'A simple test to calculate words per minute and accuracy.',
       gitHubLink:"https://github.com/arnvj110/Typing_Test",
       homePage:'https://typing-test-beta-snowy.vercel.app/',
-      image:'Images/Typing.png',
+      image:'/Typing.png',
     },
     {
       color:'bg-orange-500',
@@ -48,7 +48,7 @@ const Detail = ({x,Setx,xbg}) => {
       description:'A stop Watch in which you can also add lap.',
       gitHubLink:"https://github.com/arnvj110/Stop_Watch",
       homePage:"https://stop-watch-livid.vercel.app/",
-      image:'Images/StopWatch.png',
+      image:'/StopWatch.png',
     },
   ]
   
